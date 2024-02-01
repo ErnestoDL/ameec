@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://db.onlinewebfonts.com/c/4cb0a725d25db5a5401af8cffa9f3beb?family=BebasNeueBold" rel="stylesheet">
+    <title>CARRERA AMEEC</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html{
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'poppins', sans-serif;
+        }
+
+        header {
+            background-image: url('img/Carrera.png'); /* Replace with your background image path */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 85px;
+            margin: 0.5rem 0;
+            font-weight: 500;
+        }
+
+        header p {
+            font-size: 20px;
+            margin: 0.5rem 0;
+        }
+
+        header a.cta {
+            background-color: #fff;
+            border: 1px solid #333;
+            color: #333;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 60px;
+            margin-top: 1rem;
+            transition: all 0.2s;
+        }
+
+        header a.cta:hover {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 2rem;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            padding: 20px 7%;            
+        }
+
+        @media (max-width: 600px) {
+            .navbar a {
+            flex: 100%;
+            margin: 5px 0;
+            }
+        }
+
+        nav img{
+            height: 100px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            color: #1E1E1E;
+            margin: 0 0rem;
+            text-decoration: none;
+            font-size: 2rem;
+            background-color: green;
+            border-radius: 5px;
+            font-family: 'BebasNeueBold';
+            padding: 6px;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+    </style>
+</head>
+
+<script>
+
+    window.onload = function () {
+        window.scrollTo(0, -1000);
+};
+
+</script>
+
+<body>
+    <header>
+        <h1></h1>
+    </header>
+
+    <nav>
+        <img src="img/Logo.png" alt="Carrera con Causa Monterrey Logo">
+        <a href="#inicio">SOBRE NOSOTROS</a>
+        <a href="#registro">REGISTRO</a>
+        <a href="#cuenta-regresiva">CUENTA REGRESIVA</a>
+        <a href="#itinerario">ITINERARIO</a>
+        <a href="#ubicacion">UBICACIÓN</a>
+        <a href="#alianzas">ALIANZAS Y PATROCINADORES</a>
+        <a href="#donar">DONAR</a>
+    </nav>
+
+    <section id="inicio">
+        <h2>Bienvenido a la Carrera con Causa</h2>
+        <p>¡Participa en nuestra carrera de 5 y 10 kilómetros en Monterrey! Ayuda a causas benéficas mientras disfrutas de una experiencia única.</p>
+        <p>Fecha del evento: Noviembre de 2024</p>
+    </section>
+
+    <section id="registro">
+        <h2>Registro</h2>
+        <p>Regístrate para participar en la carrera. ¡Asegura tu lugar ahora!</p>
+        <!-- Agrega aquí el formulario de registro y el sistema de pago -->
+    </section>
+
+    <section id="cuenta-regresiva">
+        <h2>Cuenta Regresiva</h2>
+        <!-- Agrega aquí una cuenta regresiva hasta la fecha del evento -->
+    </section>
+
+    <section id="itinerario">
+        <h2>Itinerario</h2>
+        <!-- Agrega aquí el itinerario del evento -->
+    </section>
+
+    <section id="ubicacion">
+        <h2>Ubicación</h2>
+        <!-- Agrega aquí información sobre la ubicación del evento -->
+    </section>
+
+    <section id="alianzas">
+        <h2>Alianzas y Patrocinadores</h2>
+        <!-- Agrega aquí información sobre las alianzas y patrocinadores -->
+    </section>
+
+    <section id="donar">
+        <h2>Donar</h2>
+        <!-- Agrega aquí información sobre cómo realizar donaciones -->
+    </section>
+
+
+</body>
+
+</html>
